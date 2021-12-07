@@ -1,0 +1,28 @@
+.main_block {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.main_block h1 {
+    font-weight: lighter;
+}
+
+.logo_block {
+    display: grid;
+    justify-items: center;
+}
+
+@media(max-width: 768px) {
+    .main_block {
+        width: 400px;
+    }
+}
+
+@media(max-width: 530px) {
+    .main_block {
+        margin: 0;
+    }
+}

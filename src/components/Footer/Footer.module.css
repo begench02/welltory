@@ -1,0 +1,47 @@
+.main_block {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    justify-items: center;
+    color: #BAB7BD;
+    width: 70%;
+    margin: 40px auto;
+
+}
+
+.main_block div {
+    display: flex;
+    align-items: center;
+}
+
+.first_block * {
+    margin-right: 10px;
+}
+
+.first_block p {
+    color: #BAB7BD;
+}
+
+.apple_icon {
+    color: #fff !important;
+}
+
+.google_play_icon {
+    width: 24px;
+    height: 24px;
+}
+
+.third_block * {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.second_block * {
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+@media(max-width: 768px) {
+    .main_block {
+        grid-template-columns: 1fr;
+    }
+}

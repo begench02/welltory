@@ -1,0 +1,39 @@
+.main_block {
+    margin-top: 50px;
+}
+
+.content_block {
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    grid-gap: 2rem;
+    justify-items: center;
+    text-align: start;
+    border-bottom: 1px solid #fff;
+    margin: 20px 0;
+    padding: 10px 0;
+    font-size: 15px;
+
+}
+
+.title {
+    font-size: 22px;
+    background: linear-gradient(91.33deg, #89A3FF 0%, #FF6060 54.17%, #FFBF00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content_block div {
+}
+
+.text {
+    justify-self: start;
+}
+
+.check_icon {
+    color: #56B693;
+}
+
+.no_icon {
+    font-size: 25px;
+    opacity: 50%;
+}

@@ -1,0 +1,35 @@
+.main_block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main_block button {
+    width: 335px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #5F6068;
+}
+
+.free_version {
+    background-color: transparent;
+    color: #fff;
+}
+
+.update {
+    background: linear-gradient(91.33deg, #89A3FF 0%, #FF6060 54.17%, #FFBF00 100%);
+}
+
+@media(max-width: 768px) {
+    .main_block {
+        grid-template-columns: 1fr;
+    }
+    .main_block div {
+        justify-items: center;
+    }
+    .main_block button {
+        justify-items: center;
+        margin: 10px auto;
+    }
+}
+

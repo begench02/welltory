@@ -1,0 +1,21 @@
+.main_block {
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.button {
+    width: 340px;
+    height: 50px;
+    background: linear-gradient(91.33deg, #89A3FF 0%, #FF6060 54.17%, #FFBF00 100%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text {
+    opacity: 50%;
+    align-items: center;
+    font-size: 12px;
+    font-size: 400;
+    color: #fff;
+}
