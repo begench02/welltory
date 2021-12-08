@@ -1,7 +1,6 @@
 // Image
 import googlePlay from '../../images/googlePlay.png';
 // Icons
-import SmartDisplayIcon from '@mui/icons-material/SmartDisplay';
 import AppleIcon from '@mui/icons-material/Apple';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
